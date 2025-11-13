@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/hellojava/Arrays/Arrays.iml" filepath="$PROJECT_DIR$/hellojava/Arrays/Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/engneeringdigest.iml" filepath="$PROJECT_DIR$/engneeringdigest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hellojava/hellojava.iml" filepath="$PROJECT_DIR$/hellojava/hellojava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pattern/pattern.iml" filepath="$PROJECT_DIR$/pattern/pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practice/practice.iml" filepath="$PROJECT_DIR$/practice/practice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hellojava/searching/searching.iml" filepath="$PROJECT_DIR$/hellojava/searching/searching.iml" />
+    </modules>
+  </component>
+</project>
