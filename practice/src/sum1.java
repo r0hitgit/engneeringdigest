@@ -1,24 +1,18 @@
-//keep taking number as an input till the user enter 'x' , after that print sum of all
 import java.util.Scanner;
 
 public class sum1 {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        //
-        System.out.println("Enter Number:");
-        int sum = 0;
-
+    public static void main(String[] args){
+     Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the num");
+        int sum =0;
         while(true){
-            String input= sc.next();
-
-            if(input.equals("x")){
+            int n = sc.nextInt();
+            if(n==0){
                 break;
             }
-            int num = Integer.parseInt(input);
-            sum += num;
-
-        }
-        System.out.println("sum: " +sum);
+            sum = sum+n;
+            }
+        System.out.println(sum);
+     }
     }
-}
 

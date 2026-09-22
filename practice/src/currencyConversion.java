@@ -1,4 +1,4 @@
-package currencyConversion;
+
 
 //Input currency in rupees and output in USD.
 import java.util.Scanner;

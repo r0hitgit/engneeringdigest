@@ -7,6 +7,6 @@ public class changevaluearr {
 
     }
     static void change(int[] nums){
-        nums[0] = 99; //if you make a change to the object via this refrence variable,same object will be change
+        nums[0] = 99; //if you make a change to the object via this reference variable,same object will be change
     }
 }

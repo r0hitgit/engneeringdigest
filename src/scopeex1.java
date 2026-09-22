@@ -20,7 +20,7 @@ public class scopeex1 {
         for(int i = 0 ; i<4;i++){
             System.out.println(i);
             int nums = 90;
-     //       int a =10; // a is aready variable see above
+     //       int a =10; // a is already variable see above
             a = 1000;
 
         }

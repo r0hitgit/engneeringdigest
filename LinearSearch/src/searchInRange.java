@@ -1,0 +1,24 @@
+public class searchInRange {
+    public static void main(String[] args) {
+        int[] arr ={18,12,-7,3,14,28};
+        int target =3;
+        int ans = linearSearch(arr,target,1,4);
+        System.out.println(ans);
+    }
+    static int linearSearch(int[] arr,int target,int start,int end){
+        if(arr.length ==0){
+            return-1;
+        }
+        //run the loop
+        for(int index =start;index<=end;index++){
+            //check the element at every index if it is = target
+            int element =arr[index];
+            if(element == target){
+                return index;
+            }
+        }
+        //this line will execute if none of the above return statement above have executed
+        //hence the target is not found
+        return -1;
+    }
+}

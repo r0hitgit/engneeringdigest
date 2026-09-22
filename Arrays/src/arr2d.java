@@ -12,6 +12,7 @@ public class arr2d {
         //Input
         for (int i = 0; i<arr2dd.length; i++){
 
+
         }
 
 

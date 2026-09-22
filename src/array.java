@@ -2,7 +2,7 @@
 
 public class array {
     public static void main(String[] args){
-        //find max element
+        //find max element in an array
         int[] arr = new int [5]; // new use for storing an array is heap memory,arr refaring an array
         arr[0]= 2;
         arr[1]= 12;

@@ -8,6 +8,7 @@ public class stringinput {
         int n = in.nextInt();
         String[] str1 = new String[n];
         System.out.print("Enter Element: " );
+
         for(int i=0 ;i<str1.length ; i++){
             str1[i] =in.next();
         }
@@ -16,10 +17,5 @@ public class stringinput {
         //modify
         str1[1]="rohit";
         System.out.println(Arrays.toString(str1));
-
-
-
-
-
     }
 }

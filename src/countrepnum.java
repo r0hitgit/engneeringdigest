@@ -8,10 +8,11 @@ public class countrepnum {
         int n = 13234;
         int count = 0;
         while(n>0){
-            int rem = n%10;
-            if(rem == 3){
+            int remender = n%10;
+            if(remender == 3){
                 count++;
             }
+            // we can do this for removing the last digit
             n = n/10;
         }
         System.out.println(count);
